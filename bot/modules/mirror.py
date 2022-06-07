@@ -402,7 +402,7 @@ def _mirror(bot, message, isZip=False, extract=False, isQbit=False, isLeech=Fals
             mega_dl = MegaDownloader(listener)
             Thread(target=mega_dl.add_download, args=(link, f'{DOWNLOAD_DIR}{listener.uid}/')).start()
         else:
-            sendMessage('MEGA_API_KEY not Provided!', bot, message)
+            sendMessage('❖ MEGA Disabled..! /n❖ Gib MEGA premium wen?', bot, message)
     elif isQbit:
         qb_dl = QbDownloader(listener)
         Thread(target=qb_dl.add_qb_torrent, args=(link, f'{DOWNLOAD_DIR}{listener.uid}', qbitsel)).start()
