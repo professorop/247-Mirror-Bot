@@ -184,7 +184,7 @@ try:
         raise KeyError
 except:
     MEGA_KEY = None
-    LOGGER.info('MEGA_API_KEY not provided!')
+    LOGGER.info('MEGA_API_KEY not provided!, Send mega premium wen?')
 if MEGA_KEY is not None:
     # Start megasdkrest binary
     Popen(["megasdkrest", "--apikey", MEGA_KEY])
