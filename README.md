@@ -3,6 +3,10 @@ This is a Telegram Bot written in Python for mirroring files on the Internet to 
 
 # Features:
 
+
+# This Repo only for vps users.
+
+
 ## By [24/7](https://t.me/mirror_247_chennel) 
 - qBittorrent
 - Select files from Torrent before downloading using qbittorrent
